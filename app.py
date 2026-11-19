@@ -906,7 +906,7 @@ def build_responsive_app_html(scene_json: str, audio_b64: str) -> str:
     <div class="gate-modal">
       <div class="gate-icon">🎄</div>
       <div class="gate-title">입장하시겠습니까?</div>
-      <div class="gate-desc">입장하시면 신나는 크리스마스 캐롤과 함께<br>3D 트리가 바로 시작됩니다.</div>
+      <div class="gate-desc">입장하시면 신나는 크리스마스 캐롤과 함께<br>3D 트리가 바로 시작됩니다.<br>(소리를 켜고 입장하세요.)</div>
       <button type="button" class="gate-btn" id="btn-enter">입장하겠습니다</button>
       <div class="gate-warn" id="gate-warn">상위폴더/Music/song.mp3 파일을 찾을 수 없습니다.</div>
     </div>
@@ -928,8 +928,7 @@ def build_responsive_app_html(scene_json: str, audio_b64: str) -> str:
       <div class="prompt-card" id="prompt-card">
         <div class="card-badge">CHRISTMAS ACCESS CHECK</div>
         <div class="card-title">크리스마스 입장 확인</div>
-        <div class="card-desc">올해 크리스마스, 솔크이신가요?</div>
-        <div class="card-desc">정직하게 선택해 주세요.</div>
+        <div class="card-desc">올해 크리스마스, 솔크이신가요?<br>정직하게 선택해 주세요.</div>
         <div class="btn-group">
           <button type="button" class="choice-btn btn-solo" id="btn-solo">솔크입니다</button>
           <button type="button" class="choice-btn btn-couple" id="btn-couple">솔크가 아닙니다</button>
